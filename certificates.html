@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Beauty Store</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-wrap justify-content-between align-items-center">
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <a class="primary-medium d-flex align-items-center" href="#">
+                        <svg class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="1" y="1" width="8" height="8" rx="1" stroke="#407D80" stroke-width="2" />
+                            <rect x="1" y="15" width="8" height="8" rx="1" stroke="#407D80" stroke-width="2" />
+                            <rect x="15" y="1" width="8" height="8" rx="1" stroke="#407D80" stroke-width="2" />
+                            <rect x="15" y="15" width="8" height="8" rx="1" stroke="#407D80" stroke-width="2" />
+                        </svg>
+                        Каталог товаров
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3 mb-md-0 text-center">
+                    <a class="blog-header-logo d-inline-block text-dark" href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div
+                    class="col-12 col-md-4 mb-3 mb-md-0 d-flex justify-content-around justify-content-md-end align-items-center">
+                    <a class="mx-3 d-flex align-items-center" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22 22L15.6569 15.6569M15.6569 15.6569C17.1046 14.2091 18 12.2091 18 10C18 5.58172 14.4183 2 10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C12.2091 18 14.2091 17.1046 15.6569 15.6569Z"
+                                stroke="#407D80" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </a>
+                    <a class="mx-3 d-flex align-items-center" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 4.88611L11.3804 5.67106L12 6.16009L12.6196 5.67106L12 4.88611ZM12.6401 4.38084L13.2597 5.16578V5.16578L12.6401 4.38084ZM21.4192 13.2348L22.1513 13.916H22.1513L21.4192 13.2348ZM2.58084 13.2348L1.84872 13.916H1.84872L2.58084 13.2348ZM11.3599 4.38084L11.9794 3.5959L11.9794 3.5959L11.3599 4.38084ZM21.1457 4.84563L21.848 4.13379V4.13379L21.1457 4.84563ZM12.6196 5.67106L13.2597 5.16578L12.0206 3.5959L11.3804 4.10117L12.6196 5.67106ZM20.687 12.5536C19.0812 14.2796 17.21 16.1918 15.5253 17.6658C14.6811 18.4044 13.9062 19.0131 13.2503 19.4314C12.5444 19.8817 12.1437 20 12 20V22C12.7692 22 13.5988 21.5814 14.3258 21.1177C15.1027 20.6221 15.9633 19.94 16.8422 19.171C18.6037 17.6298 20.5293 15.6593 22.1513 13.916L20.687 12.5536ZM12 20C11.8563 20 11.4556 19.8817 10.7497 19.4314C10.0938 19.0131 9.31887 18.4044 8.47473 17.6658C6.79001 16.1918 4.91884 14.2796 3.31296 12.5536L1.84872 13.916C3.47075 15.6593 5.39629 17.6298 7.15775 19.171C8.0367 19.94 8.89726 20.6221 9.67422 21.1177C10.4012 21.5814 11.2308 22 12 22V20ZM10.7403 5.16578L11.3804 5.67106L12.6196 4.10117L11.9794 3.5959L10.7403 5.16578ZM3.55667 5.55747C5.49781 3.64224 8.59425 3.47187 10.7403 5.16578L11.9794 3.5959C9.04322 1.27829 4.81301 1.50829 2.15199 4.13379L3.55667 5.55747ZM3.31296 12.5536C1.46708 10.5697 1.5854 7.50242 3.55667 5.55747L2.15199 4.13379C-0.54805 6.79778 -0.772883 11.0983 1.84872 13.916L3.31296 12.5536ZM20.4433 5.55747C22.4146 7.50242 22.5329 10.5697 20.687 12.5536L22.1513 13.916C24.7729 11.0983 24.548 6.79778 21.848 4.13379L20.4433 5.55747ZM13.2597 5.16578C15.4058 3.47187 18.5022 3.64224 20.4433 5.55747L21.848 4.13379C19.187 1.50829 14.9568 1.27829 12.0206 3.5959L13.2597 5.16578Z"
+                                fill="#407D80" />
+                        </svg>
+                    </a>
+                    <a class="mx-3 d-flex align-items-center" href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.79215 7.76632L2.799 7.64948L3.79215 7.76632ZM2.26274 20.7663L3.25589 20.8832V20.8832L2.26274 20.7663ZM21.7372 20.7663L20.744 20.8832V20.8832L21.7372 20.7663ZM20.2078 7.76632L21.2009 7.64948V7.64948L20.2078 7.76632ZM6.99996 8C6.99996 8.55228 7.44767 9 7.99996 9C8.55224 9 8.99996 8.55228 8.99996 8H6.99996ZM15 8C15 8.55228 15.4477 9 16 9C16.5522 9 17 8.55228 17 8H15ZM2.799 7.64948L1.26959 20.6495L3.25589 20.8832L4.7853 7.88316L2.799 7.64948ZM4.24904 24H19.7509V22H4.24904V24ZM22.7303 20.6495L21.2009 7.64948L19.2146 7.88316L20.744 20.8832L22.7303 20.6495ZM18.2215 5H16V7H18.2215V5ZM16 5H7.99996V7H16V5ZM7.99996 5H5.77846V7H7.99996V5ZM8.99996 8V6H6.99996V8H8.99996ZM8.99996 6V5H6.99996V6H8.99996ZM15 5V6H17V5H15ZM15 6V8H17V6H15ZM12 2C13.6568 2 15 3.34315 15 5H17C17 2.23858 14.7614 0 12 0V2ZM21.2009 7.64948C21.0232 6.13864 19.7427 5 18.2215 5V7C18.7285 7 19.1554 7.37955 19.2146 7.88316L21.2009 7.64948ZM19.7509 24C21.5466 24 22.9401 22.433 22.7303 20.6495L20.744 20.8832C20.814 21.4777 20.3495 22 19.7509 22V24ZM1.26959 20.6495C1.05977 22.433 2.45326 24 4.24904 24V22C3.65045 22 3.18595 21.4777 3.25589 20.8832L1.26959 20.6495ZM8.99996 5C8.99996 3.34315 10.3431 2 12 2V0C9.23853 0 6.99996 2.23858 6.99996 5H8.99996ZM4.7853 7.88316C4.84455 7.37955 5.27137 7 5.77846 7V5C4.2572 5 2.97675 6.13864 2.799 7.64948L4.7853 7.88316Z"
+                                fill="#407D80" />
+                        </svg>
+                    </a>
+                    <a class="mx-3 primary-medium" href="#">ENG</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-start">
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">Услуги</a>
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">О бьюти-пространстве</a>
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">Сертификаты</a>
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">Отзывы</a>
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">Контакты</a>
+                <a class="py-2 mr-3 mr-md-5 primary-medium" href="#">Доставка и оплата</a>
+            </nav>
+        </div>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb my-3">
+                <li class="breadcrumb-item secondary-regular"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item secondary-regular active" aria-current="page">Сертификаты</li>
+            </ol>
+        </nav>
+    </div>
+
+    <main role="main" class="container">
+        <div class="gift my-3 my-lg-5">
+            <div class="row align-items-center my-3 my-lg-5">
+                <div class="col-12 col-lg-8">
+                    <h1 class="headline-1 mb-3 mb-md-5">Наши сертификаты</h1>
+                    <p class="primary-medium c-secondary-black">Сертификаты от компании Beauty Store - это отличный шанс сделать приятный подарок своим близким или коллегам. Мы предлагаем гибкую систему сертификатов на разные суммы - от 5 000 ₸ до 100 000 ₸, а также золотой сертификат, сумму которого вы определяете сами.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-1.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>5 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">5 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-2.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>10 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">10 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-3.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>15 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">15 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-4.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>20 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">20 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-2.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>50 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">50 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-5.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на сумму<br>100 000 ₸</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">100 000 ₸</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+                <div class="product-item col-12 col-sm-6 col-md-4 col-lg-3 mb-5">
+                    <img class="w-100 mb-3 rounded" src="img/gift-pic-3.jpg" alt="">
+                    <h4 class="headline-4 mb-3">Сертификат на произвольную сумму</h4>
+                    <p class="accent-bold d-flex align-items-center mb-3">Индивидуально</p>
+                    <a class="btn btn-light btn-box btn-gift headline-5" href="#">Купить</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="service my-3 my-lg-5 pb-3 pb-md-5">
+            <div class="row align-items-center my-3 my-lg-5">
+                <div class="col-12">
+                    <h2 class="headline-2">Нас часто спрашивают о сертификатах</h2>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample2">
+                <hr class="accordion-hr">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="flush-headingFirst">
+                        <button class="headline-3 accordion-button collapsed py-3 py-md-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFirst" aria-expanded="false"
+                            aria-controls="flush-collapseFirst">
+                            <span>
+                                У вашего сертификата есть срок действия?
+                            </span>
+                        </button>
+                    </h4>
+                    <div id="flush-collapseFirst" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFirst" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body pb-3 pb-md-4">
+                            <p class="mb-3">Стоимость и сроки доставки зависят от многих факторов: регион и его
+                                удаленность, погодные условия, загруженность почтовых операторов. Обычно мы доставляем
+                                косметику в течение 5-6 рабочих дней.</p>
+                            <p>Вы живете в Атырау и не желаете ждать так долго? Тогда приходить к нам в салон!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accordion-hr">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="flush-headingSecond">
+                        <button class="headline-3 accordion-button collapsed py-3 py-md-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSecond" aria-expanded="false"
+                            aria-controls="flush-collapseSecond">
+                            <span>
+                                Как я могу воспользоваться сертификатом?
+                            </span>
+                        </button>
+                    </h4>
+                    <div id="flush-collapseSecond" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSecond" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body pb-3 pb-md-4">
+                            <p class="mb-3">Стоимость и сроки доставки зависят от многих факторов: регион и его
+                                удаленность, погодные условия, загруженность почтовых операторов. Обычно мы доставляем
+                                косметику в течение 5-6 рабочих дней.</p>
+                            <p>Вы живете в Атырау и не желаете ждать так долго? Тогда приходить к нам в салон!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accordion-hr">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="flush-headingThird">
+                        <button class="headline-3 accordion-button collapsed py-3 py-md-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThird" aria-expanded="false"
+                            aria-controls="flush-collapseThird">
+                            <span>
+                                Как купить сертификат?
+                            </span>
+                        </button>
+                    </h4>
+                    <div id="flush-collapseThird" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThird" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body pb-3 pb-md-4">
+                            <p class="mb-3">Стоимость и сроки доставки зависят от многих факторов: регион и его
+                                удаленность, погодные условия, загруженность почтовых операторов. Обычно мы доставляем
+                                косметику в течение 5-6 рабочих дней.</p>
+                            <p>Вы живете в Атырау и не желаете ждать так долго? Тогда приходить к нам в салон!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accordion-hr">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="flush-headingFourth">
+                        <button class="headline-3 accordion-button collapsed py-3 py-md-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFourth" aria-expanded="false"
+                            aria-controls="flush-collapseFourth">
+                            <span>
+                                Можно ли использовать сертификат на сайте?
+                            </span>
+                        </button>
+                    </h4>
+                    <div id="flush-collapseFourth" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFourth" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body pb-3 pb-md-4">
+                            <p class="mb-3">Стоимость и сроки доставки зависят от многих факторов: регион и его
+                                удаленность, погодные условия, загруженность почтовых операторов. Обычно мы доставляем
+                                косметику в течение 5-6 рабочих дней.</p>
+                            <p>Вы живете в Атырау и не желаете ждать так долго? Тогда приходить к нам в салон!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accordion-hr">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="flush-headingFifth">
+                        <button class="headline-3 accordion-button collapsed py-3 py-md-4" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFifth" aria-expanded="false"
+                            aria-controls="flush-collapseFifth">
+                            <span>
+                                Какие услуги или товары доступны по сертификату?
+                            </span>
+                        </button>
+                    </h4>
+                    <div id="flush-collapseFifth" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFifth" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body pb-3 pb-md-4">
+                            <p class="mb-3">Стоимость и сроки доставки зависят от многих факторов: регион и его
+                                удаленность, погодные условия, загруженность почтовых операторов. Обычно мы доставляем
+                                косметику в течение 5-6 рабочих дней.</p>
+                            <p>Вы живете в Атырау и не желаете ждать так долго? Тогда приходить к нам в салон!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="accordion-hr">
+            </div>
+        </div>
+
+        <div class="service mt-5 mb-3 my-lg-5">
+            <div class="row align-items-center my-3 my-lg-5">
+                <div class="col-12 col-md-9">
+                    <h2 class="headline-2">Остались вопросы? Свяжитесь с нами, мы поможем их решить!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h3 class="headline-3 my-1">Заполните форму, мы вам перезвоним</h3>
+                    <p class="c-secondary-black">Мы получим заявку и свяжемся с вами в ближайшее время</p>
+                    <form action="" class="contacts-form my-3 my-lg-5">
+                        <div class="inputBox mb-3 mb-md-4">
+                            <input class="contacts-input primary-medium" type="text" name="" required="required">
+                            <span class="secondary-regular">Ваше имя</span>
+                        </div>
+                        <div class="inputBox mb-3 mb-md-5">
+                            <input class="contacts-input primary-medium" type="tel" name="" required="required">
+                            <span class="secondary-regular">Ваш номер телефона</span>
+                        </div>
+                        <button class="btn headline-5" type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+                <div class="col-md-6 col-12 mt-4 mt-md-0">
+                    <h3 class="headline-3 my-1">Или свяжитесь с нами напрямую</h3>
+                    <p class="c-secondary-black">Звоните или пишите - мы на связи</p>
+                    <div class="row my-3 my-lg-5">
+                        <div class="col-12 contacts-item">
+                            <h5 class="headline-5 mb-2">Номер телефона</h5>
+                            <div class="contacts-info-wrapper d-flex align-items-center">
+                                <span class="contacts-icon contacts-icon-phone"></span>
+                                <p class="contacts-text">+7 (727) 310-21-49</p>
+                            </div>
+                        </div>
+                        <div class="col-12 contacts-item">
+                            <h5 class="headline-5 mb-2">Электронная почта</h5>
+                            <div class="contacts-info-wrapper d-flex align-items-center">
+                                <span class="contacts-icon contacts-icon-mail"></span>
+                                <p class="contacts-text contacts-text-bold m-0">beauty.store@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12 contacts-item">
+                            <h5 class="headline-5 mb-2">Мессенджеры</h5>
+                            <ul class="contacts-list d-flex align-items-center">
+                                <li class="contacts-li">
+                                    <a class="contacts-link" href="#">
+                                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17 32.5C8.43959 32.5 1.5 25.5604 1.5 17H0.5C0.5 26.1127 7.8873 33.5 17 33.5V32.5ZM1.5 17C1.5 8.43959 8.43959 1.5 17 1.5V0.5C7.8873 0.5 0.5 7.8873 0.5 17H1.5ZM17 1.5C25.5604 1.5 32.5 8.43959 32.5 17H33.5C33.5 7.8873 26.1127 0.5 17 0.5V1.5ZM32.5 17C32.5 25.5604 25.5604 32.5 17 32.5V33.5C26.1127 33.5 33.5 26.1127 33.5 17H32.5Z"
+                                                fill="#407D80" />
+                                            <path
+                                                d="M14.3389 20.2558L14.0666 24.3343C14.4666 24.3343 14.6434 24.1514 14.8666 23.9343L16.7884 22.0656L20.7866 25.0195C21.5224 25.4255 22.0535 25.2153 22.2368 24.3364L24.8614 11.968C25.1301 10.8906 24.4507 10.402 23.7468 10.7215L8.33484 16.6643C7.28283 17.0863 7.28896 17.6732 8.14308 17.9347L12.0981 19.1692L21.2545 13.3925C21.6868 13.1304 22.0835 13.2713 21.7579 13.5603L14.3386 20.2556L14.3389 20.2558Z"
+                                                fill="#407D80" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="contacts-li">
+                                    <a class="contacts-link" href="#">
+                                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17 32.5C8.43959 32.5 1.5 25.5604 1.5 17H0.5C0.5 26.1127 7.8873 33.5 17 33.5V32.5ZM1.5 17C1.5 8.43959 8.43959 1.5 17 1.5V0.5C7.8873 0.5 0.5 7.8873 0.5 17H1.5ZM17 1.5C25.5604 1.5 32.5 8.43959 32.5 17H33.5C33.5 7.8873 26.1127 0.5 17 0.5V1.5ZM32.5 17C32.5 25.5604 25.5604 32.5 17 32.5V33.5C26.1127 33.5 33.5 26.1127 33.5 17H32.5Z"
+                                                fill="#407D80" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M10.2173 23.8054L13.2103 23.0203L13.499 23.1917C14.7131 23.9121 16.1049 24.2934 17.5239 24.2939H17.5271C21.8856 24.2939 25.433 20.7465 25.4347 16.3862C25.4355 14.2732 24.6138 12.2864 23.1208 10.7917C21.6278 9.29696 19.6423 8.47339 17.5302 8.47266C13.1683 8.47266 9.62087 12.0198 9.61914 16.3797C9.61853 17.8739 10.0366 19.3291 10.8282 20.5881L11.0162 20.8873L10.2173 23.8054ZM21.9943 18.4359C22.1601 18.516 22.2721 18.5701 22.3199 18.6499C22.3793 18.749 22.3793 19.225 22.1813 19.7804C21.9831 20.3357 21.0334 20.8425 20.5766 20.9107C20.1671 20.9719 19.6488 20.9975 19.0793 20.8165C18.7341 20.707 18.2913 20.5607 17.7241 20.3157C15.4955 19.3534 13.9894 17.1934 13.7047 16.7852C13.6848 16.7566 13.6709 16.7366 13.6631 16.7262L13.6612 16.7236C13.5354 16.5558 12.6924 15.431 12.6924 14.267C12.6924 13.172 13.2303 12.598 13.4779 12.3338C13.4948 12.3157 13.5104 12.2991 13.5244 12.2838C13.7423 12.0458 13.9999 11.9863 14.1583 11.9863C14.3168 11.9863 14.4755 11.9878 14.614 11.9947C14.631 11.9956 14.6488 11.9955 14.6672 11.9954C14.8057 11.9946 14.9784 11.9936 15.1488 12.4028C15.2144 12.5603 15.3103 12.7938 15.4115 13.0401C15.616 13.5381 15.842 14.0883 15.8818 14.168C15.9412 14.287 15.9808 14.4257 15.9016 14.5845C15.8897 14.6083 15.8787 14.6307 15.8682 14.6522C15.8087 14.7737 15.7649 14.8631 15.6639 14.981C15.6242 15.0274 15.5831 15.0774 15.542 15.1274C15.4603 15.227 15.3785 15.3266 15.3073 15.3975C15.1883 15.516 15.0644 15.6447 15.2031 15.8827C15.3417 16.1207 15.8188 16.8991 16.5255 17.5295C17.2852 18.2071 17.9455 18.4935 18.2802 18.6387C18.3455 18.667 18.3985 18.69 18.4373 18.7094C18.6749 18.8284 18.8136 18.8085 18.9523 18.6499C19.091 18.4913 19.5466 17.9557 19.705 17.7178C19.8635 17.4799 20.022 17.5195 20.2399 17.5988C20.4578 17.6782 21.6266 18.2532 21.8643 18.3722C21.9107 18.3955 21.9541 18.4164 21.9943 18.4359Z"
+                                                fill="#407D80" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer py-3 py-md-5">
+        <a class="btn-to-top" href="#">Back to top</a>
+        <div class="container">
+            <div class="row mb-3 mb-md-5">
+                <div class="col-md-5 col-12 mb-4 mb-md-0">
+                    <a class="d-inline-block mb-3 mb-md-5" href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="contacts-info-wrapper d-flex align-items-center mb-3">
+                        <span class="contacts-icon contacts-icon-geo"></span>
+                        <p class="contacts-text">Атырау, ул. Академика Жарбосынова, 89а</p>
+                    </div>
+                    <div class="contacts-info-wrapper d-flex align-items-center mb-3">
+                        <span class="contacts-icon contacts-icon-phone"></span>
+                        <p class="contacts-text">+7 (727) 310-21-49</p>
+                    </div>
+                    <div class="contacts-info-wrapper d-flex align-items-center mb-3">
+                        <span class="contacts-icon contacts-icon-mail"></span>
+                        <p class="contacts-text contacts-text-bold m-0">beauty.store@gmail.com</p>
+                    </div>
+                    <ul class="contacts-list d-flex align-items-center">
+                        <li class="contacts-li">
+                            <a class="contacts-link" href="#">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17 32.5C8.43959 32.5 1.5 25.5604 1.5 17H0.5C0.5 26.1127 7.8873 33.5 17 33.5V32.5ZM1.5 17C1.5 8.43959 8.43959 1.5 17 1.5V0.5C7.8873 0.5 0.5 7.8873 0.5 17H1.5ZM17 1.5C25.5604 1.5 32.5 8.43959 32.5 17H33.5C33.5 7.8873 26.1127 0.5 17 0.5V1.5ZM32.5 17C32.5 25.5604 25.5604 32.5 17 32.5V33.5C26.1127 33.5 33.5 26.1127 33.5 17H32.5Z"
+                                        fill="#407D80"></path>
+                                    <path
+                                        d="M14.3389 20.2558L14.0666 24.3343C14.4666 24.3343 14.6434 24.1514 14.8666 23.9343L16.7884 22.0656L20.7866 25.0195C21.5224 25.4255 22.0535 25.2153 22.2368 24.3364L24.8614 11.968C25.1301 10.8906 24.4507 10.402 23.7468 10.7215L8.33484 16.6643C7.28283 17.0863 7.28896 17.6732 8.14308 17.9347L12.0981 19.1692L21.2545 13.3925C21.6868 13.1304 22.0835 13.2713 21.7579 13.5603L14.3386 20.2556L14.3389 20.2558Z"
+                                        fill="#407D80"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="contacts-li">
+                            <a class="contacts-link" href="#">
+                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17 32.5C8.43959 32.5 1.5 25.5604 1.5 17H0.5C0.5 26.1127 7.8873 33.5 17 33.5V32.5ZM1.5 17C1.5 8.43959 8.43959 1.5 17 1.5V0.5C7.8873 0.5 0.5 7.8873 0.5 17H1.5ZM17 1.5C25.5604 1.5 32.5 8.43959 32.5 17H33.5C33.5 7.8873 26.1127 0.5 17 0.5V1.5ZM32.5 17C32.5 25.5604 25.5604 32.5 17 32.5V33.5C26.1127 33.5 33.5 26.1127 33.5 17H32.5Z"
+                                        fill="#407D80"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.2173 23.8054L13.2103 23.0203L13.499 23.1917C14.7131 23.9121 16.1049 24.2934 17.5239 24.2939H17.5271C21.8856 24.2939 25.433 20.7465 25.4347 16.3862C25.4355 14.2732 24.6138 12.2864 23.1208 10.7917C21.6278 9.29696 19.6423 8.47339 17.5302 8.47266C13.1683 8.47266 9.62087 12.0198 9.61914 16.3797C9.61853 17.8739 10.0366 19.3291 10.8282 20.5881L11.0162 20.8873L10.2173 23.8054ZM21.9943 18.4359C22.1601 18.516 22.2721 18.5701 22.3199 18.6499C22.3793 18.749 22.3793 19.225 22.1813 19.7804C21.9831 20.3357 21.0334 20.8425 20.5766 20.9107C20.1671 20.9719 19.6488 20.9975 19.0793 20.8165C18.7341 20.707 18.2913 20.5607 17.7241 20.3157C15.4955 19.3534 13.9894 17.1934 13.7047 16.7852C13.6848 16.7566 13.6709 16.7366 13.6631 16.7262L13.6612 16.7236C13.5354 16.5558 12.6924 15.431 12.6924 14.267C12.6924 13.172 13.2303 12.598 13.4779 12.3338C13.4948 12.3157 13.5104 12.2991 13.5244 12.2838C13.7423 12.0458 13.9999 11.9863 14.1583 11.9863C14.3168 11.9863 14.4755 11.9878 14.614 11.9947C14.631 11.9956 14.6488 11.9955 14.6672 11.9954C14.8057 11.9946 14.9784 11.9936 15.1488 12.4028C15.2144 12.5603 15.3103 12.7938 15.4115 13.0401C15.616 13.5381 15.842 14.0883 15.8818 14.168C15.9412 14.287 15.9808 14.4257 15.9016 14.5845C15.8897 14.6083 15.8787 14.6307 15.8682 14.6522C15.8087 14.7737 15.7649 14.8631 15.6639 14.981C15.6242 15.0274 15.5831 15.0774 15.542 15.1274C15.4603 15.227 15.3785 15.3266 15.3073 15.3975C15.1883 15.516 15.0644 15.6447 15.2031 15.8827C15.3417 16.1207 15.8188 16.8991 16.5255 17.5295C17.2852 18.2071 17.9455 18.4935 18.2802 18.6387C18.3455 18.667 18.3985 18.69 18.4373 18.7094C18.6749 18.8284 18.8136 18.8085 18.9523 18.6499C19.091 18.4913 19.5466 17.9557 19.705 17.7178C19.8635 17.4799 20.022 17.5195 20.2399 17.5988C20.4578 17.6782 21.6266 18.2532 21.8643 18.3722C21.9107 18.3955 21.9541 18.4164 21.9943 18.4359Z"
+                                        fill="#407D80"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-12 mb-4 mb-md-0">
+                    <h4 class="headline-4 mb-3 mb-md-4">Карта сайта</h4>
+                    <a class="primary-medium d-block mb-2" href="#">Каталог</a>
+                    <a class="primary-medium d-block mb-2" href="#">Услуги</a>
+                    <a class="primary-medium d-block mb-2" href="#">О бьюти-пространстве</a>
+                    <a class="primary-medium d-block mb-2" href="#">Сертификаты</a>
+                    <a class="primary-medium d-block mb-2" href="#">Отзывы</a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h4 class="headline-4 mb-3 mb-md-4">Клиентам</h4>
+                    <a class="primary-medium d-block mb-2" href="#">Доставка и оплата</a>
+                    <a class="primary-medium d-block mb-2" href="#">Политика конфиденциальности</a>
+                    <a class="primary-medium d-block mb-2" href="#">Контакты</a>
+                </div>
+            </div>
+            <hr class="accordion-hr">
+            <div class="row mt-3 mt-md-5">
+                <div class="col-12 d-flex justify-content-between align-items-center">
+                    <p class="d-inline-block">Beauty Store, 2022</p>
+                    <p class="primary-medium d-inline-block">
+                        Сделано в
+                        <a class="d-inline-block" href="#"><img src="img/equator.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
